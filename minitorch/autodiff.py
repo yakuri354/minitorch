@@ -30,6 +30,7 @@ def central_difference(f: Any, *vals: Any, arg: int = 0, epsilon: float = 1e-6) 
 
     return (f(*vals1) - f(*vals2)) / (2.0 * epsilon)
 
+
 variable_count = 1
 
 
